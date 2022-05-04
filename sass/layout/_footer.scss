@@ -1,0 +1,223 @@
+.adress-list-foot {
+  display: block;
+}
+
+.footer-logo {
+  color: var(--header-text-color);
+}
+
+.logo-foot {
+  margin-bottom: 20px;
+  display: block;
+}
+
+.foot {
+  background-color: #2f303a;
+}
+
+.footer-adress {
+  font-style: normal;
+}
+
+.logo-foot {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.adress-list-div {
+margin-bottom: 60px;
+  @media screen and (min-width: 768px) {
+  margin-bottom: 0;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0;
+     }
+    }
+
+    .footer-socials-contact {
+       @media screen and (min-width: 1200px) {
+        margin-left: 70px;
+         }
+    }
+
+.adress-city {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--header-text-color);
+  margin-bottom: 9px;
+}
+
+.adress-contact {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.foot-adress-contact:nth-last-child(1n + 2) {
+  margin-bottom: 9px;
+}
+
+.footer-socials-p {
+  color: var(--header-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  vertical-align: top;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.footer-container {
+  display: block;
+  text-align: center;
+  
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    text-align: inherit;
+    
+     }
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.icon-footer-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--header-text-color);
+  justify-content: center;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.icon-social-footer {
+  fill: currentColor;
+}
+
+.icon-footer-item + .icon-footer-item {
+  margin-left: 10px;
+}
+
+.footer-subscription {
+  color: var(--header-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  }
+
+.contact-wrap {
+  margin-top: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-left: auto;
+    margin-top: 0;
+    vertical-align: baseline;
+     }
+  
+
+}
+
+.contact-subscription-telegram {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+     }
+}
+
+.input-email {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--title-back-color);
+  padding-left: 16px;
+  color: var(--header-link-color);
+  &:focus {
+    outline: none;
+      }
+  margin-bottom: 20px;
+  @media screen and (min-width: 768px) {
+    width: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+      margin-bottom: 0;
+
+       } 
+
+}
+
+.btn-telegram {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  color: var(--header-text-color);
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+  margin-left: 12px;
+}
+
+.icon-icon-send {
+  fill: var(--header-text-color);
+  margin-left: 10px;
+}
+
+.span-btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tablet-footer {
+  
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 0;
+      vertical-align: baseline;
+       }
+}

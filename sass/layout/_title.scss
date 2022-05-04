@@ -1,0 +1,84 @@
+.title {
+ 
+  padding-top: 118px;
+  padding-bottom: 118px;
+  background-color: var(--title-back-color);
+  max-width: 480px;
+  height: 400px;
+  left: 0px;
+  top: 80px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Imgbutton-mob.jpg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Imgbutton-tab.jpg);
+    max-width: 786px;
+    height: 400px;
+   }
+  @media screen and (min-width: 1200px) {
+     padding-top: 200px;
+     padding-bottom: 200px;
+     background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Imgbutton.jpg);
+    max-width: 1600px;
+    height: 600px;
+     }
+}
+
+.title-h1 {
+ 
+  font-weight: 900;
+  font-size: 18px;
+  line-height: calc(42 / 26);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: var(--header-text-color);
+  @media screen and (min-width: 480px) {
+    font-size: 26px;
+   line-height: calc(42 / 26);
+    }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: calc(60 / 44);
+     }
+}
+
+.main-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  font-family: inherit;
+  color: var(--header-text-color);
+  margin: auto;
+  min-width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 0;
+}
