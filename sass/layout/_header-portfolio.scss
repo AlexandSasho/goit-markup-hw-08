@@ -1,6 +1,11 @@
+.header-portfolio {
+  border-bottom: 1px solid #ECECEC;
+}
+
+
 .header-portfolio-container {
   display: flex;
-  border-bottom: 1px solid #ECECEC;
+  
   
 }
 
@@ -67,9 +72,10 @@
        }
 }
 
-.portfolio-header-adress {
+
+.header-link-adress {
   @media screen and (min-width: 1200px) {
-    padding-top: 32px;
-    padding-bottom: 32px;
-     }
+        padding-top: 32px;
+        padding-bottom: 32px;
+}
 }

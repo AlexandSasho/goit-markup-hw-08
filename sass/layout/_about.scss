@@ -43,6 +43,10 @@
   text-transform: uppercase;
   color: var(--text-color);
   margin-bottom: 10px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    }
 }
 
 .about-list {
