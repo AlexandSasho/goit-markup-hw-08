@@ -1,5 +1,6 @@
 .mobile-menu {
     display: flex;
+    
   }
   
   .menu-open-btn,  .menu-close-btn{
@@ -60,6 +61,10 @@
       flex-direction: column;
       justify-content: space-between;
     }
+
+    @media screen and (min-width: 767px) {
+      display: none;
+      }
   }
   
   
@@ -106,13 +111,13 @@
   }
   
   .mob-menu-social-link {
-    font-size: 14px;
+    font-size: 18px;
     line-height: calc(22 / 18);
     color: var(--accent-color);
     font-weight: 500;
-    @media screen and (min-width: 480px) {
-      font-size: 18px;
-      }
+    width: 98%;
+    
+    
   }
   
   .mob-menu-social-item:not(:first-child) {
@@ -134,7 +139,9 @@
     display: flex;
   }
   
-  .mob-menu-bottom {
-    margin-bottom: 64px;
-  }
   
+  
+  .masters-social-list-mob {
+    flex-wrap: wrap;
+    margin-top: 64px;
+  }

@@ -87,10 +87,7 @@ margin-bottom: 60px;
 .footer-container {
   display: block;
   text-align: center;
-  
-  
-  @media screen and (min-width: 1200px) {
-    
+   @media screen and (min-width: 1200px) {
     text-align: inherit;
     
     
@@ -102,10 +99,11 @@ margin-bottom: 60px;
   @media screen and (min-width: 1200px) {
     display: flex;
     vertical-align: baseline;
-    
      }
- 
 }
+
+
+
 
 .icon-footer {
   display: flex;
